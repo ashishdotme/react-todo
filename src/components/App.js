@@ -12,7 +12,7 @@ class App extends Component {
           <Hero.Head>
             <Navbar>
               <Navbar.Brand>
-                <Navbar.Item renderAs="a" href="#">
+                <Navbar.Item renderAs="a" href="https://ashish.me">
                   <h1>ashish.me</h1>
                 </Navbar.Item>
               </Navbar.Brand>
@@ -22,10 +22,14 @@ class App extends Component {
         <Section>
           <Container>
             <Columns>
-              <Columns.Column></Columns.Column>
-              <Columns.Column><Header /><br/><Main /></Columns.Column>
-              <Columns.Column></Columns.Column>
-            </Columns>          
+              <Columns.Column />
+              <Columns.Column>
+                <Header />
+                <br />
+                <Main />
+              </Columns.Column>
+              <Columns.Column />
+            </Columns>
           </Container>
         </Section>
       </div>
